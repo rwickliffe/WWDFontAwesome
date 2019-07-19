@@ -3124,7 +3124,6 @@ const struct WWDFontAwesomeIconStruct WWDFontAwesomeIcon = {
 + (void)wwd_logFontAwesome
 {
 #ifdef DEBUG
-//    NSURL *JSONBundleURL = [[NSBundle bundleWithIdentifier:@"org.cocoapods.WWDFontAwesome"] URLForResource:@"WWDFontAwesome" withExtension:@"bundle"];
     NSURL *JSONBundleURL = [[NSBundle bundleForClass:[WWDFontAwesomeLoader class]] URLForResource:@"WWDFontAwesome" withExtension:@"bundle"];
     NSURL *JSONURL = [NSBundle URLForResource:@"icons" withExtension:@"json" subdirectory:nil inBundleWithURL:JSONBundleURL];
     NSData *JSONData = [NSData dataWithContentsOfURL:JSONURL];
