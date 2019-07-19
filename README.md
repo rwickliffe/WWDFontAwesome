@@ -5,7 +5,7 @@ Adds Font Awesome icon font handling to iOS.
 ## Installation
 
 `WWDFontAwesome` is available through [CocoaPods](http://cocoapods.org). To install
-it, first be sure the location of this private spec repo is specified in your podfile:
+it, first be sure the location of this private spec repo is specified in your `Podfile`:
 
 ```
 source 'https://github.com/rwickliffe/Specs.git'
