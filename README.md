@@ -25,6 +25,24 @@ pod 'WWDFontAwesome'
 
 You may alternatively just copy the contents of the `WWDFontAwesome` folder into your project.
 
+## Usage
+
+#### Creating an Attributed String
+
+```objective-c
+NSAttributedString *awesomeAttributedString =
+[[NSAttributedString alloc]
+ initWithString:WWDFontAwesomeIcon.regular._star
+ attributes:
+ @{ NSFontAttributeName
+    : [UIFont fontAwesomeRegularFontOfSize:13.0f],
+    NSForegroundColorAttributeName
+    : [UIColor greenColor] }];
+
+UILabel *awesomeLabel = [[UILabel alloc] init];
+awesomeLabel.attributedText = awesomeAttributedString;
+```
+
 ## Contributors
 
 * [Russell Wickliffe](https://github.com/rwickliffe)
