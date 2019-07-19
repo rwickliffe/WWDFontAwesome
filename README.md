@@ -1,6 +1,8 @@
 # WWDFontAwesome
 
-Adds Font Awesome icon font handling to iOS.
+[Font Awesome](https://fontawesome.com/) is a collection of professionally designed and pixel-perfect icons. "The web's most popular icon set and toolkit." This project makes adding and using Font Awesome icon fonts in your iOS app quick and easy.
+
+Updated for Font Awesome [Version 5.9.0](https://fontawesome.com/changelog/latest) and includes 1,534 free icons.
 
 ## Installation
 
